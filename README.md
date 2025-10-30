@@ -140,3 +140,11 @@ OFDM 的核心思想是：把高速数据流拆成多个低速的子数据流，
 将IFFT 输出的时域离散采样信号通过DAC数模转换）输出，就得到了可以直接上变频并发射的模拟信号。
 
 这就是为什么说：OFDM调制= IFFT运算
+
+<p align="left"><strong>5. 代码说明</strong></p>
+- ofmd.py: 展示了IDMF就是IFFT的原理：生成8个子载波的调制波形，并跟IFFT的输出进行对比
+- qpsk_constellation.py: 展示了QPSK星座中各符号的调制波形
+- qpsk_modulation.py:展示QPSK星座图，以及调试0x1E=00011110b的调制波形
+- 使用方式：直接 python 运行各py文件，展示显示效果
+
+[知乎文章：为什么说OFDM调制就是IFFT？一个可视化的展示](https://zhuanlan.zhihu.com/p/1966952030644986519)
