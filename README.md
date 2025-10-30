@@ -19,9 +19,8 @@
 下图展示了QPSK星座图中的四个符号点。
 <p align="center">
   <img src="pngs/QPSK星座图.png" width="50%">
+  <strong>图1：QPSK星座图</strong><br>
 </p>
-
-图1：QPSK星座图
 
 ### QPSK 映射表
 | 符号比特 | 复数表示 |
