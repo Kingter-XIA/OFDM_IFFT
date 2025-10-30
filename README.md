@@ -17,7 +17,10 @@
 - QPSK 星座图上共有4个不同相位。
 - 每个符号携带两个比特，换句话说，每两个比特被映射为星座上的一个复数点。
 下图展示了QPSK星座图中的四个符号点。
-![QPSK星座图](pngs/QPSK星座图.png)  
+<p align="center">
+  <img src="pngs/QPSK星座图.png" width="50%">
+</p>
+
 图1：QPSK星座图
 
 ### QPSK 映射表
